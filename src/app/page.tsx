@@ -31,25 +31,15 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         {
-          name: "Start",
-          id: "hero",
-        },
+          name: "Start",          id: "hero"},
         {
-          name: "O Nas",
-          id: "about",
-        },
+          name: "O Nas",          id: "about"},
         {
-          name: "Oferta",
-          id: "products",
-        },
+          name: "Oferta",          id: "products"},
         {
-          name: "Opinie",
-          id: "testimonials",
-        },
+          name: "Opinie",          id: "testimonials"},
         {
-          name: "Kontakt",
-          id: "contact",
-        },
+          name: "Kontakt",          id: "contact"},
       ]}
       brandName="Łyk Fantazji"
     />
@@ -58,45 +48,28 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroBillboardCarousel
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       title="Twórz wyjątkowe kubki z własnym nadrukiem"
       description="Personalizowane kubki na prezent, dla firm i na każdą okazję. Twój pomysł, nasze wykonanie."
       buttons={[
         {
-          text: "Zamów swój kubek",
-          href: "#products",
-        },
+          text: "Zamów swój kubek",          href: "#products"},
         {
-          text: "Zobacz realizacje",
-          href: "#gallery",
-        },
+          text: "Zobacz realizacje",          href: "#gallery"},
       ]}
       mediaItems={[
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/a-set-of-high-quality-customizable-ceram-1774937721826-f011d619.png?_wi=1",
-          imageAlt: "Personalizowany kubek",
-        },
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/a-set-of-high-quality-customizable-ceram-1774937721826-f011d619.png",          imageAlt: "Personalizowany kubek"},
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/a-set-of-high-quality-customizable-ceram-1774937721826-f011d619.png?_wi=2",
-          imageAlt: "Kubek z nadrukiem",
-        },
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/a-set-of-high-quality-customizable-ceram-1774937721826-f011d619.png",          imageAlt: "Kubek z nadrukiem"},
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/a-set-of-high-quality-customizable-ceram-1774937721826-f011d619.png?_wi=3",
-          imageAlt: "Kubek z napisem",
-        },
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/a-set-of-high-quality-customizable-ceram-1774937721826-f011d619.png",          imageAlt: "Kubek z napisem"},
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/a-set-of-high-quality-customizable-ceram-1774937721826-f011d619.png?_wi=4",
-          imageAlt: "Kubek personalizowany",
-        },
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/a-set-of-high-quality-customizable-ceram-1774937721826-f011d619.png",          imageAlt: "Kubek personalizowany"},
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/a-set-of-high-quality-customizable-ceram-1774937721826-f011d619.png?_wi=5",
-          imageAlt: "Kubek na prezent",
-        },
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/a-set-of-high-quality-customizable-ceram-1774937721826-f011d619.png",          imageAlt: "Kubek na prezent"},
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/a-set-of-high-quality-customizable-ceram-1774937721826-f011d619.png?_wi=6",
-          imageAlt: "Kubek z logo",
-        },
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/a-set-of-high-quality-customizable-ceram-1774937721826-f011d619.png",          imageAlt: "Kubek z logo"},
       ]}
     />
   </div>
@@ -106,9 +79,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="O Nas"
       description={[
-        "Łyk Fantazji to marka, która powstała z pasji do tworzenia wyjątkowych i personalizowanych produktów. Specjalizujemy się w nadrukach na kubkach, dbając o każdy detal – od projektu po wykonanie.",
-        "Naszym celem jest dostarczanie produktów, które wywołują emocje i sprawiają radość – idealnych na prezent lub do codziennego użytku.",
-      ]}
+        "Łyk Fantazji to marka, która powstała z pasji do tworzenia wyjątkowych i personalizowanych produktów. Specjalizujemy się w nadrukach na kubkach, dbając o każdy detal – od projektu po wykonanie.",        "Naszym celem jest dostarczanie produktów, które wywołują emocje i sprawiają radość – idealnych na prezent lub do codziennego użytku."]}
     />
   </div>
 
@@ -120,29 +91,13 @@ export default function LandingPage() {
       useInvertedBackground={true}
       products={[
         {
-          id: "p1",
-          name: "Kubki personalizowane",
-          price: "od 35 PLN",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/custom-printed-ceramic-mug-with-modern-a-1774937720967-f48ce6e7.png?_wi=1",
-        },
+          id: "p1",          name: "Kubki personalizowane",          price: "od 35 PLN",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/custom-printed-ceramic-mug-with-modern-a-1774937720967-f48ce6e7.png"},
         {
-          id: "p2",
-          name: "Kubki z napisami",
-          price: "od 29 PLN",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/custom-printed-ceramic-mug-with-modern-a-1774937720967-f48ce6e7.png?_wi=2",
-        },
+          id: "p2",          name: "Kubki z napisami",          price: "od 29 PLN",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/custom-printed-ceramic-mug-with-modern-a-1774937720967-f48ce6e7.png"},
         {
-          id: "p3",
-          name: "Kubki brokatowe",
-          price: "od 45 PLN",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/elegant-mug-with-glitter-finish-and-subt-1774937722325-e510a85a.png?_wi=1",
-        },
+          id: "p3",          name: "Kubki brokatowe",          price: "od 45 PLN",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/elegant-mug-with-glitter-finish-and-subt-1774937722325-e510a85a.png"},
         {
-          id: "p4",
-          name: "Zamówienia dla firm",
-          price: "Indywidualna wycena",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/professional-company-branded-mug-with-lo-1774937720138-cf6010c4.png?_wi=1",
-        },
+          id: "p4",          name: "Zamówienia dla firm",          price: "Indywidualna wycena",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/professional-company-branded-mug-with-lo-1774937720138-cf6010c4.png"},
       ]}
       title="Nasza Oferta"
       description="Wybierz idealny kubek dla siebie lub bliskich."
@@ -155,53 +110,36 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Wysoka jakość",
-          description: "Żywe kolory i trwałe nadruki, które przetrwają lata.",
-          icon: CheckCircle,
+          title: "Wysoka jakość",          description: "Żywe kolory i trwałe nadruki, które przetrwają lata.",          icon: CheckCircle,
           mediaItems: [
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/custom-printed-ceramic-mug-with-modern-a-1774937720967-f48ce6e7.png?_wi=3",
-            },
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/custom-printed-ceramic-mug-with-modern-a-1774937720967-f48ce6e7.png"},
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/elegant-mug-with-glitter-finish-and-subt-1774937722325-e510a85a.png?_wi=2",
-            },
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/elegant-mug-with-glitter-finish-and-subt-1774937722325-e510a85a.png"},
           ],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/a-set-of-high-quality-customizable-ceram-1774937721826-f011d619.png?_wi=7",
-          imageAlt: "A set of high-quality customizable ceramic mugs with elegant personal prints, soft pastel aesthetic,",
         },
         {
-          title: "Dbałość o detale",
-          description: "Każdy projekt traktujemy z najwyższą starannością.",
-          icon: Award,
+          title: "Dbałość o detale",          description: "Każdy projekt traktujemy z najwyższą starannością.",          icon: Award,
           mediaItems: [
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/custom-printed-ceramic-mug-with-modern-a-1774937720967-f48ce6e7.png?_wi=4",
-            },
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/custom-printed-ceramic-mug-with-modern-a-1774937720967-f48ce6e7.png"},
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/elegant-mug-with-glitter-finish-and-subt-1774937722325-e510a85a.png?_wi=3",
-            },
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/elegant-mug-with-glitter-finish-and-subt-1774937722325-e510a85a.png"},
           ],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/a-person-holding-a-beautifully-decorated-1774937721216-73fd8881.png",
-          imageAlt: "A person holding a beautifully decorated personalized ceramic mug, blurred background, warm lighting",
         },
         {
-          title: "Szybka realizacja",
-          description: "Twój kubek dotrze do Ciebie ekspresowo.",
-          icon: Zap,
+          title: "Szybka realizacja",          description: "Twój kubek dotrze do Ciebie ekspresowo.",          icon: Zap,
           mediaItems: [
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/custom-printed-ceramic-mug-with-modern-a-1774937720967-f48ce6e7.png?_wi=5",
-            },
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/custom-printed-ceramic-mug-with-modern-a-1774937720967-f48ce6e7.png"},
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/elegant-mug-with-glitter-finish-and-subt-1774937722325-e510a85a.png?_wi=4",
-            },
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/elegant-mug-with-glitter-finish-and-subt-1774937722325-e510a85a.png"},
           ],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/custom-printed-ceramic-mug-with-modern-a-1774937720967-f48ce6e7.png?_wi=6",
-          imageAlt: "Custom printed ceramic mug with modern artistic lettering, premium finish.",
         },
       ]}
       title="Dlaczego My?"
       description="Dlaczego zaufały nam tysiące klientów?"
+      animationType="scale-rotate"
     />
   </div>
 
@@ -211,60 +149,15 @@ export default function LandingPage() {
       useInvertedBackground={true}
       testimonials={[
         {
-          id: "1",
-          name: "Izabela",
-          date: "12.03.2024",
-          title: "Stała klientka",
-          quote: "Świetne kubki, wysoka jakość. Ten z napisem FAITH stał się moim ulubionym!",
-          tag: "Personalizacja",
-          avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/avatar-placeholder-friendly-smiling-cust-1774937720793-43f748e9.png",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/elegant-mug-with-glitter-finish-and-subt-1774937722325-e510a85a.png?_wi=5",
-          imageAlt: "Elegant mug with glitter finish and subtle design, gold accents.",
-        },
+          id: "1",          name: "Izabela",          date: "12.03.2024",          title: "Stała klientka",          quote: "Świetne kubki, wysoka jakość. Ten z napisem FAITH stał się moim ulubionym!",          tag: "Personalizacja",          avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/avatar-placeholder-friendly-smiling-cust-1774937720793-43f748e9.png",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/elegant-mug-with-glitter-finish-and-subt-1774937722325-e510a85a.png",          imageAlt: "Elegant mug with glitter finish and subtle design, gold accents."},
         {
-          id: "2",
-          name: "Katarzyna",
-          date: "10.02.2024",
-          title: "Zamówienie firmowe",
-          quote: "Wysoka jakość, świetna komunikacja i szybka realizacja.",
-          tag: "Firma",
-          avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/avatar-placeholder-friendly-smiling-cust-1774937720555-e9e1898d.png",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/professional-company-branded-mug-with-lo-1774937720138-cf6010c4.png?_wi=2",
-          imageAlt: "Professional company branded mug with logo, minimalistic and corporate style.",
-        },
+          id: "2",          name: "Katarzyna",          date: "10.02.2024",          title: "Zamówienie firmowe",          quote: "Wysoka jakość, świetna komunikacja i szybka realizacja.",          tag: "Firma",          avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/avatar-placeholder-friendly-smiling-cust-1774937720555-e9e1898d.png",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/professional-company-branded-mug-with-lo-1774937720138-cf6010c4.png",          imageAlt: "Professional company branded mug with logo, minimalistic and corporate style."},
         {
-          id: "3",
-          name: "Natalia",
-          date: "05.01.2024",
-          title: "Prezent",
-          quote: "Kolory wyraźne, nic się nie ściera. Wszystko wykonane idealnie.",
-          tag: "Jakość",
-          avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/avatar-placeholder-friendly-smiling-cust-1774937721138-8bbc06fb.png",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/avatar-placeholder-friendly-smiling-cust-1774937720793-43f748e9.png",
-          imageAlt: "Avatar placeholder friendly smiling customer.",
-        },
+          id: "3",          name: "Natalia",          date: "05.01.2024",          title: "Prezent",          quote: "Kolory wyraźne, nic się nie ściera. Wszystko wykonane idealnie.",          tag: "Jakość",          avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/avatar-placeholder-friendly-smiling-cust-1774937721138-8bbc06fb.png",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/avatar-placeholder-friendly-smiling-cust-1774937720793-43f748e9.png",          imageAlt: "Avatar placeholder friendly smiling customer."},
         {
-          id: "4",
-          name: "Lola",
-          date: "15.11.2023",
-          title: "Prezent",
-          quote: "Kubki brokatowe dla znajomych zrobiły furorę! Wyglądają elegancko.",
-          tag: "Brokat",
-          avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/avatar-placeholder-friendly-smiling-cust-1774937719894-b60b0104.png",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/avatar-placeholder-friendly-smiling-cust-1774937720555-e9e1898d.png",
-          imageAlt: "Avatar placeholder friendly smiling customer.",
-        },
+          id: "4",          name: "Lola",          date: "15.11.2023",          title: "Prezent",          quote: "Kubki brokatowe dla znajomych zrobiły furorę! Wyglądają elegancko.",          tag: "Brokat",          avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/avatar-placeholder-friendly-smiling-cust-1774937719894-b60b0104.png",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/avatar-placeholder-friendly-smiling-cust-1774937720555-e9e1898d.png",          imageAlt: "Avatar placeholder friendly smiling customer."},
         {
-          id: "5",
-          name: "Piotr",
-          date: "20.01.2024",
-          title: "Upominek",
-          quote: "Bardzo polecam, kubki prezentują się wyśmienicie na żywo.",
-          tag: "Prezent",
-          avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/avatar-placeholder-friendly-smiling-cust-1774937720793-43f748e9.png",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/avatar-placeholder-friendly-smiling-cust-1774937721138-8bbc06fb.png",
-          imageAlt: "Avatar placeholder friendly smiling customer.",
-        },
+          id: "5",          name: "Piotr",          date: "20.01.2024",          title: "Upominek",          quote: "Bardzo polecam, kubki prezentują się wyśmienicie na żywo.",          tag: "Prezent",          avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/avatar-placeholder-friendly-smiling-cust-1774937720793-43f748e9.png",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/avatar-placeholder-friendly-smiling-cust-1774937721138-8bbc06fb.png",          imageAlt: "Avatar placeholder friendly smiling customer."},
       ]}
       title="Opinie Klientów"
       description="Zobacz, co mówią o nas nasi zadowoleni klienci."
@@ -279,23 +172,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "g1",
-          name: "Wzór 1",
-          price: "",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/assortment-of-personalized-mugs-in-a-gri-1774937725942-d015dc45.png",
-        },
+          id: "g1",          name: "Wzór 1",          price: "",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/assortment-of-personalized-mugs-in-a-gri-1774937725942-d015dc45.png"},
         {
-          id: "g2",
-          name: "Wzór 2",
-          price: "",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/close-up-of-a-personalized-print-on-a-ce-1774937720221-dc69b201.png",
-        },
+          id: "g2",          name: "Wzór 2",          price: "",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/close-up-of-a-personalized-print-on-a-ce-1774937720221-dc69b201.png"},
         {
-          id: "g3",
-          name: "Wzór 3",
-          price: "",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/glitter-mug-glowing-under-soft-studio-li-1774937720649-65371855.png",
-        },
+          id: "g3",          name: "Wzór 3",          price: "",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/glitter-mug-glowing-under-soft-studio-li-1774937720649-65371855.png"},
       ]}
       title="Nasze Realizacje"
       description="Inspiracje dla Ciebie."
@@ -309,20 +190,12 @@ export default function LandingPage() {
       description="Masz pytania? Chcesz zamówić kubek? Skontaktuj się z nami!"
       inputs={[
         {
-          name: "imię",
-          type: "text",
-          placeholder: "Imię",
-        },
+          name: "imię",          type: "text",          placeholder: "Imię"},
         {
-          name: "email",
-          type: "email",
-          placeholder: "Email",
-        },
+          name: "email",          type: "email",          placeholder: "Email"},
       ]}
       textarea={{
-        name: "wiadomość",
-        placeholder: "Twoja wiadomość",
-      }}
+        name: "wiadomość",        placeholder: "Twoja wiadomość"}}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/close-up-of-artisan-coffee-mug-with-crea-1774937721011-8e65a4f9.png"
       mediaAnimation="slide-up"
     />
@@ -334,17 +207,11 @@ export default function LandingPage() {
         {
           items: [
             {
-              label: "Oferta",
-              href: "#products",
-            },
+              label: "Oferta",              href: "#products"},
             {
-              label: "Opinie",
-              href: "#testimonials",
-            },
+              label: "Opinie",              href: "#testimonials"},
             {
-              label: "Kontakt",
-              href: "#contact",
-            },
+              label: "Kontakt",              href: "#contact"},
           ],
         },
       ]}
