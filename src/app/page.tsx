@@ -91,16 +91,16 @@ export default function LandingPage() {
       useInvertedBackground={true}
       products={[
         {
-          id: "p1",          name: "Kubki personalizowane",          price: "od 35 PLN",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/custom-printed-ceramic-mug-with-modern-a-1774937720967-f48ce6e7.png?_wi=1"},
+          id: "p1",          name: "Kubki personalizowane",          price: "od 35 PLN",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/uploaded-1774938015625-65ux4av7.jpg"},
         {
-          id: "p2",          name: "Kubki z napisami",          price: "od 29 PLN",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/custom-printed-ceramic-mug-with-modern-a-1774937720967-f48ce6e7.png?_wi=2"},
+          id: "p2",          name: "Kubki z napisami",          price: "od 29 PLN",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/uploaded-1774938015625-kvrglya9.jpg"},
         {
-          id: "p3",          name: "Kubki brokatowe",          price: "od 45 PLN",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/elegant-mug-with-glitter-finish-and-subt-1774937722325-e510a85a.png?_wi=1"},
+          id: "p3",          name: "Kubki brokatowe",          price: "od 45 PLN",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/uploaded-1774938015625-ye4owbrl.jpg"},
         {
           id: "p4",          name: "Zamówienia dla firm",          price: "Indywidualna wycena",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/professional-company-branded-mug-with-lo-1774937720138-cf6010c4.png?_wi=1"},
       ]}
-      title="Nasza Oferta"
-      description="Wybierz idealny kubek dla siebie lub bliskich."
+      title="Nasze Portfolio"
+      description=" "
     />
   </div>
 
