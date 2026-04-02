@@ -49,7 +49,7 @@ export default function LandingPage() {
       <HeroBillboardCarousel
       background={{
         variant: "gradient-bars"}}
-      title="Twórz wyjątkowe kubki z własnym nadrukiem"
+      title="Zamów swój personalizowany kubek – prezent, który zachwyca"
       description="Personalizowane kubki na prezent, dla firm i na każdą okazję. Twój pomysł, nasze wykonanie."
       buttons={[
         {
