@@ -3,7 +3,6 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
-import FeatureCardTwentyFive from '@/components/sections/feature/FeatureCardTwentyFive';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
@@ -11,7 +10,7 @@ import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import TestimonialCardTen from '@/components/sections/testimonial/TestimonialCardTen';
 import TextAbout from '@/components/sections/about/TextAbout';
 import TimelineProcessFlow from '@/components/cardStack/layouts/timelines/TimelineProcessFlow';
-import { Award, CheckCircle, Zap, FileText, Truck, Paintbrush, Package } from "lucide-react";
+import { FileText, Paintbrush, Package, Truck } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -58,7 +57,7 @@ export default function LandingPage() {
   <div id="about" data-section="about">
       <TextAbout
       title="Tworzymy nadruki, które mają znaczenie."
-      description=""
+      useInvertedBackground={false}
       className="py-24"
     />
   </div>
@@ -69,10 +68,10 @@ export default function LandingPage() {
       textboxLayout="split"
       animationType="slide-up"
       items={[
-        { content: "Wybierz kubek", media: <Paintbrush className="w-12 h-12" />, reverse: false },
-        { content: "Prześlij swój projekt lub opis", media: <FileText className="w-12 h-12" />, reverse: true },
-        { content: "Czekaj na projekt", media: <Package className="w-12 h-12" />, reverse: false },
-        { content: "Szybka dostawa", media: <Truck className="w-12 h-12" />, reverse: true },
+        { id: "1", content: "Wybierz kubek", media: <Paintbrush className="w-12 h-12" />, reverse: false },
+        { id: "2", content: "Prześlij swój projekt lub opis", media: <FileText className="w-12 h-12" />, reverse: true },
+        { id: "3", content: "Czekaj na projekt", media: <Package className="w-12 h-12" />, reverse: false },
+        { id: "4", content: "Szybka dostawa", media: <Truck className="w-12 h-12" />, reverse: true },
       ]}
     />
   </div>
@@ -83,6 +82,7 @@ export default function LandingPage() {
       textboxLayout="default"
       gridVariant="four-items-2x2-equal-grid"
       useInvertedBackground={true}
+      description="Wybierz coś dla siebie lub bliskich z naszej oferty personalizowanych kubków."
       products={[
         { id: "p1", name: "Kubki personalizowane", price: "od 40zł", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/uploaded-1775209849815-nx6xkg6r.jpg" },
         { id: "p2", name: "Kubki z białe", price: "od 25zł ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/uploaded-1775213706165-dgznwmz8.jpg?_wi=2" },
@@ -94,7 +94,9 @@ export default function LandingPage() {
   <div id="testimonials" data-section="testimonials">
       <TestimonialCardTen
       title="Opinie naszych klientów"
+      description="Nasi klienci kochają nasze produkty."
       textboxLayout="split"
+      useInvertedBackground={false}
       testimonials={[
         { id: "1", title: "Wspaniałe kubki!", quote: "Jakość nadruku przerosła moje oczekiwania. Polecam!", name: "Anna K.", role: "Klientka indywidualna" },
         { id: "2", title: "Profesjonalizm", quote: "Szybka realizacja i świetny kontakt. Idealne dla firmy.", name: "Marek D.", role: "Właściciel firmy" },
@@ -113,6 +115,7 @@ export default function LandingPage() {
         { name: "projekt", type: "text", placeholder: "Opis projektu" },
         { name: "file", type: "file", placeholder: "Załącz plik" },
       ]}
+      useInvertedBackground={false}
       textarea={{ name: "wiadomość", placeholder: "Szczegóły zamówienia" }}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/uploaded-1775213706165-3u1wydar.jpg?_wi=3"
     />
