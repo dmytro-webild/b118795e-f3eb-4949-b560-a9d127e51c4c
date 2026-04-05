@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
+import HeroBillboard from '@/components/sections/hero/HeroBillboard';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import FeatureCardTwentySix from '@/components/sections/feature/FeatureCardTwentySix';
 import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCardTwo';
@@ -40,15 +40,11 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroBillboardCarousel
+      <HeroBillboard
       background={{ variant: "gradient-bars" }}
       title="Zamów swój personalizowany kubek – prezent, który zachwyca"
       description="Personalizowane kubki na prezent, dla firm i na każdą okazję. Twój pomysł, nasze wykonanie."
       buttons={[{ text: "Order Quote", href: "#contact" }, { text: "See Realizations", href: "#gallery" }]}
-      mediaItems={[
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/uploaded-1775213706164-nwwgzi24.jpg?_wi=1", imageAlt: "Personalizowany kubek" },
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/uploaded-1775213706165-dgznwmz8.jpg?_wi=1", imageAlt: "Kubek z nadrukiem" },
-      ]}
     />
   </div>
 
