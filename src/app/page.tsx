@@ -6,11 +6,11 @@ import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
-import ProductCardOne from '@/components/sections/product/ProductCardOne';
+import FeatureBorderGlow from '@/components/sections/feature/featureBorderGlow/FeatureBorderGlow';
 import TestimonialCardTen from '@/components/sections/testimonial/TestimonialCardTen';
 import TextAbout from '@/components/sections/about/TextAbout';
 import TimelineProcessFlow from '@/components/cardStack/layouts/timelines/TimelineProcessFlow';
-import { FileText, Paintbrush, Package, Truck } from "lucide-react";
+import { FileText, Paintbrush, Package, Truck, Coffee } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -78,17 +78,17 @@ export default function LandingPage() {
   </div>
 
   <div id="products" data-section="products">
-      <ProductCardOne
+      <FeatureBorderGlow
+      title="Nasza Oferta"
+      description="Odkryj szeroki wybór kubków ceramicznych stworzonych z myślą o wyjątkowych okazjach."
       animationType="slide-up"
       textboxLayout="default"
-      gridVariant="four-items-2x2-equal-grid"
       useInvertedBackground={true}
-      description="Wybierz coś dla siebie lub bliskich z naszej oferty personalizowanych kubków."
-      products={[
-        { id: "p1", name: "Kubki personalizowane", price: "od 40zł", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/uploaded-1775209849815-nx6xkg6r.jpg" },
-        { id: "p2", name: "Kubki z białe", price: "od 25zł ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/uploaded-1775213706165-dgznwmz8.jpg?_wi=2" },
+      features={[
+        { icon: Coffee, title: "Białe kubki ceramiczne", description: "Klasyczne białe kubki ceramiczne o pojemności 330ml." },
+        { icon: Paintbrush, title: "Personalizowany nadruk", description: "Białe kubki z Twoim własnym nadrukiem, zdjęciem lub grafiką." },
+        { icon: Package, title: "Wydania specjalne", description: "Bogaty wybór: kolorowe, brokatowe, metaliczne oraz metalowe kubki." }
       ]}
-      title="Oferta"
     />
   </div>
 
