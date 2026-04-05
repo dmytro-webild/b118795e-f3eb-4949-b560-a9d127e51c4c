@@ -9,8 +9,7 @@ import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarS
 import FeatureCardTwentySix from '@/components/sections/feature/FeatureCardTwentySix';
 import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCardTwo';
 import TextAbout from '@/components/sections/about/TextAbout';
-import TimelineProcessFlow from '@/components/cardStack/layouts/timelines/TimelineProcessFlow';
-import { FileText, Paintbrush, Package, Truck, Coffee, Camera, Sparkles } from "lucide-react";
+import { Camera, Sparkles } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -49,7 +48,6 @@ export default function LandingPage() {
       mediaItems={[
         { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/uploaded-1775213706164-nwwgzi24.jpg?_wi=1", imageAlt: "Personalizowany kubek" },
         { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/uploaded-1775213706165-dgznwmz8.jpg?_wi=1", imageAlt: "Kubek z nadrukiem" },
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BhO995npLExIhf6Ft9bT8bmyPj/uploaded-1775213706165-3u1wydar.jpg?_wi=3", imageAlt: "Zestaw kubków" },
       ]}
     />
   </div>
@@ -81,6 +79,7 @@ export default function LandingPage() {
   <div id="testimonials" data-section="testimonials">
       <TestimonialCardTwo
       title="Opinie"
+      description="Co mówią o nas nasi klienci."
       animationType="slide-up"
       textboxLayout="default"
       useInvertedBackground={false}
