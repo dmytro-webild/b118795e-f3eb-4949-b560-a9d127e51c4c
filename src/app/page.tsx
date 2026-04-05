@@ -65,6 +65,7 @@ export default function LandingPage() {
   <div id="steps" data-section="steps">
       <TimelineProcessFlow
       title="Jak zamówić?"
+      description="Oto prosty proces zamawiania Twojego wymarzonego kubka."
       textboxLayout="split"
       animationType="slide-up"
       items={[
